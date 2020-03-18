@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Mobile-friendly Floating Sidebar Navigation Example</title>
+  
+	<style>
+	body
+	{
+		font-family: 'Segoe UI';
+		font-weight: 100;
+		color: #222222;
+		display: grid;
+		grid-template-columns: 300px auto;
+	}
+	
+	main
+	{
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	
+	nav, section
+	{
+		border: 2px solid #222222;
+		margin: 1em;
+		padding: 1em;
+	}
+	</style>
+</head>
+
+<body>
+  <nav class="dark navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link">
+          <span class="link-text logo-text">GYW CTRL</span>
+          <span class='icon'>G</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <span class='icon'>U</span>
+          <span class="link-text">User code</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <span class='icon'>S</span>
+          <span class="link-text">Settings</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <span class='icon'>L</span>
+          <span class="link-text">Light controller</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <span class='icon'>D</span>
+          <span class="link-text">Databanks</span>
+        </a>
+      </li>
+
+      <li class="nav-item" id="themeButton">
+        <a href="#" class="nav-link">
+          <span class='icon'>A</span>
+          <span class="link-text">Themify</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+	<main>
+		<section>
+			<summary>Registers</summary>
+		</section>
+		<section class='half'>
+			<summary>Network</summary>
+			<img src='test.png'><img src='test.png'><img src='test.png'>
+		</section>
+		<section class='half'>
+			<summary>Settings</summary>
+		</section>
+		<section>
+			<summary>Help</summary>
+		</section>
+		<section  class='quart'>
+			<summary>About</summary>
+			<p>GEV LC-0601WE<p>
+			<p>Industrial light controller for machine vision - master node<p>
+			<p>Firmware version: X.X<p>
+		</section>
+		<section  class='quart'>
+			<summary>Support</summary>
+			<p>For support contact:<p>
+			<ul>
+				<li><a href='mailto:84ganz@gmail.com'>84ganz@gmail.com</a></li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
