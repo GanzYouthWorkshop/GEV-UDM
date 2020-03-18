@@ -9,10 +9,10 @@
 //***************************************************************************************
 //Includes
 //***************************************************************************************
-#include "lib/Adafruit-GFX/Adafruit_GFX.h"
-#include "lib/Adafruit_SSD1306/Adafruit_SSD1306.h"
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
 
-#include "lib/QRCode/qrcode.h"
+#include <qrcode.h>
 
 //***************************************************************************************
 //Global variables
